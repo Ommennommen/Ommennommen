@@ -6,7 +6,8 @@ I graduated with First Class Honours in Physics from the University of Hertfords
 subsequently completed the taught component of an MSc in Theoretical Physics at the
 University of Edinburgh. My undergraduate research applied Metropolis–Hastings MCMC
 sampling and convolutional neural networks to the 2D Ising model, replicating published
-results on how phase transitions are encoded in CNN weight matrices.
+results on how phase transitions are encoded in CNN weight matrices. The code and
+dissertation have since been adopted by my supervisor as a teaching resource.
 
 Since then I have been building applied C++ and robotics skills alongside my physics and
 Python background, with the long-term goal of working on perception and control systems
@@ -18,7 +19,8 @@ for autonomous robots.
 
 | Repository | Description |
 |---|---|
-| [MCMC-Ising](https://github.com/Ommennommen/MCMC-Ising) | C++ Metropolis–Hastings simulation of the 2D Ising model. ~37× faster than the original Python implementation. Generates training data for ML phase-transition analysis. |
+| [MCMC-Ising-ML](https://github.com/Ommennommen/MCMC-Ising-ML) | Full pipeline: C++ and Python MCMC data generation, FFNN and CNN training, and weight matrix analysis showing how phase transitions are encoded in neural networks. |
+| [MCMC-Ising](https://github.com/Ommennommen/MCMC-Ising) | C++ Metropolis–Hastings simulation of the 2D Ising model. ~37× faster than the original Python implementation. |
 | [PID](https://github.com/Ommennommen/PID) | Standalone C++ PID controller applied to a mass-spring-damper system, with Python visualisation. |
 | [ROS2](https://github.com/Ommennommen/ROS2) | The PID controller ported to a full ROS 2 package: nodes, topics, publishers, subscribers, services, and a launch file. |
 
