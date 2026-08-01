@@ -11,6 +11,7 @@ I've since been building applied C++ skills alongside my physics and Python back
  
 | Repository | Description |
 |---|---|
+| [Monte-Carlo-European-Option-Pricer](https://github.com/Ommennommen/MC-Options-Pricer) | Monte Carlo pricer for European call options: GBM simulation of the underlying, antithetic variates for variance reduction, validated against closed-form Black-Scholes at every stage. |
 | [MCMC-Ising-ML](https://github.com/Ommennommen/MCMC-Ising-ML) | Full pipeline: C++ and Python MCMC data generation, FFNN and CNN training, and weight matrix analysis showing how phase transitions are encoded in neural networks. |
 | [MCMC-Ising](https://github.com/Ommennommen/MCMC-Ising) | C++ Metropolis–Hastings simulation of the 2D Ising model. ~37× faster than the original Python implementation — an exercise in the kind of low-latency numerical computing used in production trading and pricing systems. |
 | [PID](https://github.com/Ommennommen/PID) | Standalone C++ PID controller applied to a mass-spring-damper system, with Python visualisation — feedback and control theory with direct parallels to signal processing and systematic trading logic. |
@@ -21,7 +22,7 @@ I've since been building applied C++ skills alongside my physics and Python back
 ### Skills
  
 **Languages:** Python (primary), C++ (developing), Bash, Git
-**Quantitative & Statistical:** Monte Carlo / MCMC simulation, stochastic modelling, numerical linear algebra, ODE/PDE integration
+**Quantitative & Statistical:** Monte Carlo / MCMC simulation, stochastic modelling, options pricing (Black-Scholes, variance reduction), numerical linear algebra, ODE/PDE integration
 **ML & Scientific computing:** PyTorch, TensorFlow, NumPy, SciPy, Pandas, matplotlib
 **Systems & Control:** ROS 2, CMake, control theory, feedback systems
  
@@ -33,4 +34,3 @@ I've since been building applied C++ skills alongside my physics and Python back
 - 🎓 PGCert Theoretical Physics — University of Edinburgh (taught MSc component)
 - 🔬 Research: Monte Carlo methods and machine learning applied to phase transitions in the 2D Ising model
 - 📈 Currently focused on: quantitative finance fundamentals, stochastic calculus, and applying computational physics methods to markets
- 
