@@ -11,7 +11,7 @@ I've since been building applied C++ skills alongside my physics and Python back
  
 | Repository | Description |
 |---|---|
-| [Monte-Carlo-European-Option-Pricer](https://github.com/Ommennommen/MC-Options-Pricer) | Monte Carlo pricer for European call options: GBM simulation of the underlying, antithetic variates for variance reduction, validated against closed-form Black-Scholes at every stage. |
+| [Monte-Carlo-Option-Pricer]((https://github.com/Ommennommen/Monte-Carlo-Option-Pricer)) | OOP framework simulating GBM stock paths via Euler-Maruyama to price European and Asian call options. Features antithetic and control variates for variance reduction (~16x variance reduction on Asian calls). Benchmarked at every stage against closed-form Black-Scholes and Kemna-Vorst models. |
 | [MCMC-Ising-ML](https://github.com/Ommennommen/MCMC-Ising-ML) | Full pipeline: C++ and Python MCMC data generation, FFNN and CNN training, and weight matrix analysis showing how phase transitions are encoded in neural networks. |
 | [MCMC-Ising](https://github.com/Ommennommen/MCMC-Ising) | C++ Metropolis–Hastings simulation of the 2D Ising model. ~37× faster than the original Python implementation — an exercise in the kind of low-latency numerical computing used in production trading and pricing systems. |
 | [PID](https://github.com/Ommennommen/PID) | Standalone C++ PID controller applied to a mass-spring-damper system, with Python visualisation — feedback and control theory with direct parallels to signal processing and systematic trading logic. |
